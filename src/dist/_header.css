@@ -1,0 +1,31 @@
+header {
+  background: white;
+  padding: 1rem 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #menu-top-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 500px) {
+  header #menu-top-menu {
+    display: flex;
+  }
+}
+header #menu-top-menu li {
+  list-style-type: none;
+}
+header #menu-top-menu li a {
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  color: green;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
